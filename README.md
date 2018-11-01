@@ -1,2 +1,2 @@
-# Angular Material Series - Navigation and Routing
-##  https://code-maze.com/angular-material-navigation/
+# Angular Material Series - Angular Material Table with Sorting, Filtering and Paging
+## https://code-maze.com/angular-material-table/
