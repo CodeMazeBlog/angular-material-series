@@ -1,2 +1,2 @@
-# Angular Material Series - Angular Material Error and Details Pages
-## https://code-maze.com/angular-material-error-details-pages/
+# Angular Material Series - Angular Material Form Validation, Input, Datepicker and Modal
+## https://code-maze.com/angular-material-form-validation/
