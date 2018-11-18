@@ -1,0 +1,57 @@
+<div fxLayout fxLayout.lt-md="column wrap" fxLayoutAlign="center center" fxLayoutGap.gt-sm="250px" fxLayoutGap.lt.md="20px">
+  <mat-form-field>
+    <input matInput type="text" (keyup)="doFilter($event.target.value)" placeholder="Filter">
+  </mat-form-field>
+  <div>
+    <a [routerLink]="['/owner/create']" mat-button color="primary">Create Owner</a>
+  </div>
+</div>
+<table mat-table [dataSource]="dataSource" matSort>
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
+    <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="dateOfBirth">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header> Date of Birth </th>
+    <td mat-cell *matCellDef="let element"> {{element.dateOfBirth | date}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="address">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header> Address </th>
+    <td mat-cell *matCellDef="let element"> {{element.address}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="details">
+    <th mat-header-cell *matHeaderCellDef> Details </th>
+    <td mat-cell *matCellDef="let element">
+      <button mat-icon-button color="primary" (click)="redirectToDetails(element.id)">
+          <mat-icon class="mat-18">reorder</mat-icon>
+      </button>
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="update">
+      <th mat-header-cell *matHeaderCellDef> Update </th>
+      <td mat-cell *matCellDef="let element">
+        <button mat-icon-button color="accent" (click)="redirectToUpdate(element.id)">
+            <mat-icon class="mat-18">system_update</mat-icon>
+        </button>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="delete">
+        <th mat-header-cell *matHeaderCellDef> Delete </th>
+        <td mat-cell *matCellDef="let element">
+          <button mat-icon-button color="warn" (click)="redirectToDelete(element.id)">
+              <mat-icon class="mat-18">delete</mat-icon>
+          </button>
+        </td>
+      </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+
+<mat-paginator [pageSize]="2" [pageSizeOptions]="[2, 4, 6, 10, 20]">
+</mat-paginator>

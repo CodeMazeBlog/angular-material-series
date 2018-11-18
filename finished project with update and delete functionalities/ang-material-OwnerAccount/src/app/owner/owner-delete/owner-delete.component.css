@@ -1,0 +1,8 @@
+mat-card-content, mat-card-title, mat-card-actions {
+    text-align: center;
+}
+
+mat-card-content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

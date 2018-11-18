@@ -1,0 +1,29 @@
+<section fxLayout="row wrap" fxLayoutAlign="center center">
+  <mat-card fxFlex="500px" fxFlex.xs="100%">
+
+    <mat-card-title>Delete owner</mat-card-title>
+    <mat-card-content>
+      <div fxLayout="column wrap" fxLayoutGap="40px">
+        <div fxLayout="row wrap" fxFlex>
+          <div fxFlex><strong>Owner's name:</strong></div>
+          <div fxFlex>{{owner?.name}}</div>
+        </div>
+
+        <div fxLayout="row wrap" fxFlex>
+          <div fxFlex><strong>Date of birth:</strong></div>
+          <div fxFlex>{{owner?.dateOfBirth | date}}</div>
+        </div>
+
+        <div fxLayout="row wrap" fxFlex>
+          <div fxFlex><strong>Owner's address:</strong></div>
+          <div fxFlex>{{owner?.address}}</div>
+        </div>
+      </div>
+    </mat-card-content>
+    <mat-card-actions align="center">
+      <button mat-raised-button color="primary" (click)="deleteOwner()">Delete</button>
+      <button type="button" mat-raised-button color="warn" (click)="onCancel()">Cancel</button>
+    </mat-card-actions>
+
+  </mat-card>
+</section>
