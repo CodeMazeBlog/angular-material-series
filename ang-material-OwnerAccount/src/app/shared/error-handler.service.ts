@@ -1,16 +1,16 @@
 import { Injectable } from '@angular/core';
 import { HttpErrorResponse } from '@angular/common/http';
 import { Router } from '@angular/router';
-
+ 
 @Injectable({
   providedIn: 'root'
 })
 export class ErrorHandlerService {
   public errorMessage: string = '';
-
+ 
   constructor(private router: Router) { }
-
-  public handleError(error: HttpErrorResponse){
+ 
+  public handleError = (error: HttpErrorResponse) => {
     if(error.status === 500){
       this.handle500Error(error);
     }
@@ -22,17 +22,17 @@ export class ErrorHandlerService {
     }
   }
  
-  private handle500Error(error: HttpErrorResponse){
+  private handle500Error = (error: HttpErrorResponse) => {
     this.createErrorMessage(error);
     this.router.navigate(['/500']);
   }
  
-  private handle404Error(error: HttpErrorResponse){
+  private handle404Error = (error: HttpErrorResponse) => {
     this.createErrorMessage(error);
     this.router.navigate(['/404']);
   }
  
-  private handleOtherError(error: HttpErrorResponse){
+  private handleOtherError = (error: HttpErrorResponse) => {
     this.createErrorMessage(error);
     //TODO: this will be fixed later;
   }
