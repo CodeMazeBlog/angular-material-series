@@ -2,7 +2,7 @@ import { RepositoryService } from './../../shared/repository.service';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Location } from '@angular/common';
-import { MatDialog } from '@angular/material';
+import { MatDialog } from '@angular/material/dialog';
 import { SuccessDialogComponent } from '../../shared/dialogs/success-dialog/success-dialog.component';
 import { ErrorHandlerService } from '../../shared/error-handler.service';
 import { ActivatedRoute } from '@angular/router';

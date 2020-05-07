@@ -9,7 +9,7 @@ export class SuccessDialogComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 
 }

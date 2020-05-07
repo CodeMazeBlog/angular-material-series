@@ -5,5 +5,5 @@ export interface Owner{
     dateOfBirth: Date;
     address: string;
 
-    accounts?: Account
+    accounts?: Account;
 }
