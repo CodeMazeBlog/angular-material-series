@@ -9,11 +9,10 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 
   public executeSelectedChange = (event) => {
     console.log(event);
   }
-
 }
