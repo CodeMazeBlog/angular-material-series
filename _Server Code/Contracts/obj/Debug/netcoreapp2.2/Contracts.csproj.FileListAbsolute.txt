@@ -1,0 +1,12 @@
+D:\Projects\angular-material-series\_Server Code\Contracts\bin\Debug\netcoreapp2.2\Contracts.deps.json
+D:\Projects\angular-material-series\_Server Code\Contracts\bin\Debug\netcoreapp2.2\Contracts.dll
+D:\Projects\angular-material-series\_Server Code\Contracts\bin\Debug\netcoreapp2.2\Contracts.pdb
+D:\Projects\angular-material-series\_Server Code\Contracts\bin\Debug\netcoreapp2.2\Entities.dll
+D:\Projects\angular-material-series\_Server Code\Contracts\bin\Debug\netcoreapp2.2\Entities.pdb
+D:\Projects\angular-material-series\_Server Code\Contracts\obj\Debug\netcoreapp2.2\Contracts.csprojAssemblyReference.cache
+D:\Projects\angular-material-series\_Server Code\Contracts\obj\Debug\netcoreapp2.2\Contracts.AssemblyInfoInputs.cache
+D:\Projects\angular-material-series\_Server Code\Contracts\obj\Debug\netcoreapp2.2\Contracts.AssemblyInfo.cs
+D:\Projects\angular-material-series\_Server Code\Contracts\obj\Debug\netcoreapp2.2\Contracts.csproj.CoreCompileInputs.cache
+D:\Projects\angular-material-series\_Server Code\Contracts\obj\Debug\netcoreapp2.2\Contracts.csproj.CopyComplete
+D:\Projects\angular-material-series\_Server Code\Contracts\obj\Debug\netcoreapp2.2\Contracts.dll
+D:\Projects\angular-material-series\_Server Code\Contracts\obj\Debug\netcoreapp2.2\Contracts.pdb

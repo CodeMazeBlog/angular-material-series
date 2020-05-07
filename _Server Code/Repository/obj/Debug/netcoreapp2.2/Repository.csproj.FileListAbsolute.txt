@@ -1,0 +1,14 @@
+D:\Projects\angular-material-series\_Server Code\Repository\bin\Debug\netcoreapp2.2\Repository.deps.json
+D:\Projects\angular-material-series\_Server Code\Repository\bin\Debug\netcoreapp2.2\Repository.dll
+D:\Projects\angular-material-series\_Server Code\Repository\bin\Debug\netcoreapp2.2\Repository.pdb
+D:\Projects\angular-material-series\_Server Code\Repository\bin\Debug\netcoreapp2.2\Contracts.dll
+D:\Projects\angular-material-series\_Server Code\Repository\bin\Debug\netcoreapp2.2\Entities.dll
+D:\Projects\angular-material-series\_Server Code\Repository\bin\Debug\netcoreapp2.2\Contracts.pdb
+D:\Projects\angular-material-series\_Server Code\Repository\bin\Debug\netcoreapp2.2\Entities.pdb
+D:\Projects\angular-material-series\_Server Code\Repository\obj\Debug\netcoreapp2.2\Repository.csprojAssemblyReference.cache
+D:\Projects\angular-material-series\_Server Code\Repository\obj\Debug\netcoreapp2.2\Repository.AssemblyInfoInputs.cache
+D:\Projects\angular-material-series\_Server Code\Repository\obj\Debug\netcoreapp2.2\Repository.AssemblyInfo.cs
+D:\Projects\angular-material-series\_Server Code\Repository\obj\Debug\netcoreapp2.2\Repository.csproj.CoreCompileInputs.cache
+D:\Projects\angular-material-series\_Server Code\Repository\obj\Debug\netcoreapp2.2\Repository.csproj.CopyComplete
+D:\Projects\angular-material-series\_Server Code\Repository\obj\Debug\netcoreapp2.2\Repository.dll
+D:\Projects\angular-material-series\_Server Code\Repository\obj\Debug\netcoreapp2.2\Repository.pdb

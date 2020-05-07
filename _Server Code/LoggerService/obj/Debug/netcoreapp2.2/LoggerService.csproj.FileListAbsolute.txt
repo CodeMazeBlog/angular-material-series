@@ -1,0 +1,14 @@
+D:\Projects\angular-material-series\_Server Code\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.deps.json
+D:\Projects\angular-material-series\_Server Code\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.dll
+D:\Projects\angular-material-series\_Server Code\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.pdb
+D:\Projects\angular-material-series\_Server Code\LoggerService\bin\Debug\netcoreapp2.2\Contracts.dll
+D:\Projects\angular-material-series\_Server Code\LoggerService\bin\Debug\netcoreapp2.2\Entities.dll
+D:\Projects\angular-material-series\_Server Code\LoggerService\bin\Debug\netcoreapp2.2\Contracts.pdb
+D:\Projects\angular-material-series\_Server Code\LoggerService\bin\Debug\netcoreapp2.2\Entities.pdb
+D:\Projects\angular-material-series\_Server Code\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.csprojAssemblyReference.cache
+D:\Projects\angular-material-series\_Server Code\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.AssemblyInfoInputs.cache
+D:\Projects\angular-material-series\_Server Code\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.AssemblyInfo.cs
+D:\Projects\angular-material-series\_Server Code\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.csproj.CoreCompileInputs.cache
+D:\Projects\angular-material-series\_Server Code\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.csproj.CopyComplete
+D:\Projects\angular-material-series\_Server Code\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.dll
+D:\Projects\angular-material-series\_Server Code\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.pdb

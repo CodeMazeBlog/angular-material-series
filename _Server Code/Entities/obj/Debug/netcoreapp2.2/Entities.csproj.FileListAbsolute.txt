@@ -1,0 +1,9 @@
+D:\Projects\angular-material-series\_Server Code\Entities\bin\Debug\netcoreapp2.2\Entities.deps.json
+D:\Projects\angular-material-series\_Server Code\Entities\bin\Debug\netcoreapp2.2\Entities.dll
+D:\Projects\angular-material-series\_Server Code\Entities\bin\Debug\netcoreapp2.2\Entities.pdb
+D:\Projects\angular-material-series\_Server Code\Entities\obj\Debug\netcoreapp2.2\Entities.csprojAssemblyReference.cache
+D:\Projects\angular-material-series\_Server Code\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfoInputs.cache
+D:\Projects\angular-material-series\_Server Code\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfo.cs
+D:\Projects\angular-material-series\_Server Code\Entities\obj\Debug\netcoreapp2.2\Entities.csproj.CoreCompileInputs.cache
+D:\Projects\angular-material-series\_Server Code\Entities\obj\Debug\netcoreapp2.2\Entities.dll
+D:\Projects\angular-material-series\_Server Code\Entities\obj\Debug\netcoreapp2.2\Entities.pdb
