@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HttpClientModule } from '@angular/common/http';
-import { OwnerModule } from './owner/owner.module';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -27,8 +26,7 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
     MaterialModule,
     FlexLayoutModule,
     RoutingModule,
-    HttpClientModule,
-    OwnerModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
