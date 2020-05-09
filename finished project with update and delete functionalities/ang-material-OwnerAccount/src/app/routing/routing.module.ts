@@ -7,7 +7,7 @@ import { ServerErrorComponent } from '../error-pages/server-error/server-error.c
  
 const routes: Routes = [
   { path: 'home', component: HomeComponent},
-  { path: 'owner', loadChildren: "./../owner/owner.module#OwnerModule" }, 
+  { path: 'owner', path: 'owner', loadChildren: () => import ('./../owner/owner.module').then(m => m.OwnerModule) }, 
   { path: '404', component: NotFoundComponent},
   { path: '500', component: ServerErrorComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
