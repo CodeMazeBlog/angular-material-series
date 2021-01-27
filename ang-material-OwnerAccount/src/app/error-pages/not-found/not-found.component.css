@@ -1,0 +1,12 @@
+section div:nth-child(1), section div:nth-child(3){
+    color: blue;
+    font-size: 50px;
+}
+ 
+section div:nth-child(1){
+    margin-top: 20px;
+}
+ 
+section div:nth-child(2){
+    width: 50%;
+}
